@@ -30,24 +30,23 @@ http://127.0.0.1:8000/verify-email/
 🔐 **3. JWT Login System (Secure)**
 •	Login using **username + password/email + password**  
 •	Only **verified** users can login  
-	Generates:
-	🔑 Access Token 
-	🔁 Refresh Token  
-	🆔 JTI (Token ID for security logging)
+Generates:
+🔑 Access Token 
+🔁 Refresh Token  
+🆔 JTI (Token ID for security logging)
 
 ---
  📊 **4. Token Activity Logging**
 Every token action is logged:
-	🔵 LOGIN  
-	🟡 REFRESH  
-	🔴 LOGOUT  
+🔵 LOGIN  
+🟡 REFRESH  🔴 LOGOUT  
 
 
 Logged details:
-	🌐 IP Address  
-	💻 Device / User Agent  
-	🆔 Token JTI  
-	🕒 Timestamp  
+🌐 IP Address  
+💻 Device / User Agent  
+🆔 Token JTI  
+🕒 Timestamp  
 -  🌐 IP Address Tracking (Advanced Security)
 
    
@@ -55,9 +54,9 @@ Logged details:
 •	Last_ip automatically stored on every login
 •	Login_ip_history table/model tracks all previous login ips
 •	Shows:
-o	🌍 IP Address
-o	🕒 Login Time
-o	📱 Device/User-Agent
+🌍 IP Address
+🕒 Login Time
+📱 Device/User-Agent
 
 
 
@@ -115,6 +114,7 @@ Logs include:
 •	Device Info
 •	Token JTI
 •	Timestamp
+
 ________________________________________
 👤 7️⃣ User Profile System
 Returns:
