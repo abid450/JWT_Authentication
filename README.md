@@ -39,7 +39,8 @@ Generates:
  📊 **4. Token Activity Logging**
 Every token action is logged:
 🔵 LOGIN  
-🟡 REFRESH  🔴 LOGOUT  
+🟡 REFRESH  
+🔴 LOGOUT  
 
 
 Logged details:
@@ -47,7 +48,7 @@ Logged details:
 💻 Device / User Agent  
 🆔 Token JTI  
 🕒 Timestamp  
--  🌐 IP Address Tracking (Advanced Security)
+🌐 IP Address Tracking (Advanced Security)
 
    
 🟦 Features:
@@ -73,15 +74,15 @@ System can detect & log:
 🟩 Features Included:
 ✔ last_login_device
 Stores:
-	Browser name
-	Os
-	Device type
-	User-agent
-	Last Login Date
-	Last Login Device Name
-	Last IP Name
-	Last Logout
-	Login count +1………
+✔ Browser name
+✔ Os
+✔	Device type
+✔	User-agent
+✔	Last Login Date
+✔	Last Login Device Name
+✔	Last IP Name
+✔	Last Logout
+✔	Login count +1………
 
 ✔ Device List API
 User can see:
@@ -109,6 +110,7 @@ Every action stored:
 	🔵 LOGIN
 	🟡 REFRESH
 	🔴 LOGOUT
+
 Logs include:
 •	IP Address
 •	Device Info
@@ -127,6 +129,7 @@ Returns:
 	Last Login IP
 	Login Count
 	List of devices (optional)
+
 
 ## 🛠️ Tech Stack
 
